@@ -1,0 +1,6 @@
+title: Nicholas Kozeniauskas
+theme: html_deprecated
+subdomain: nics-website
+domain: nics-website.smvi.co
+badge: show
+description: Welcome to my website! I’m the smartest economist. I’m also the silliest.

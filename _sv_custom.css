@@ -1,0 +1,143 @@
+/* Mobile first style */
+  /*
+  * {
+    border: 1px solid black;
+  }
+  */
+
+  body {
+    /*
+    margin: 0 auto;
+    */
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-weight: 400;
+  }
+
+  header {
+    background-color: rgba(87,6,140,1);
+    color: white;
+    padding: 25px;
+    font-size: 14px;
+    font-family: Verdana, Arial, sans-serif;
+  }
+
+  /* makes hyperlinks NYU purple */
+  a {
+    color: rgba(87,6,140,1);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /*
+  img {
+    max-width: 108px;
+  }
+  */
+  /*.intro, .work {
+    padding: 25px;
+  }*/
+
+  .intro {
+    padding: 25px;
+  }
+
+  .papers {
+    border-top: 2px solid rgba(87,6,140,1);
+  }
+
+  .papers, .progress {
+    border-bottom: 2px solid rgba(87,6,140,1);
+    padding: 20px 20px;
+  }
+
+  .headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    width: 250px;
+    /*border-radius: 125px;*/
+  }
+
+  h3 {
+    font-family: Verdana, Arial, sans-serif;
+  }
+
+  h4 {
+    padding-top: 10px;
+  }
+
+  .subtext {
+    font-weight: normal;
+  }
+
+  footer {
+    text-align: center;
+    margin: 50px 50px;
+  }
+  /*.work p {
+    line-height: 1.5em;
+  }
+  */
+  /*
+  Mobile First!
+
+  Include your desktop styles here
+*/
+@media screen and (min-width: 768px){
+  body {  
+    margin: 0 auto;
+    width: 800px;
+    /*font-family: Arial, sans-serif;*/
+  }
+
+  header {
+    /*
+    max-width: 800px;
+    */
+    font-size: 15px;
+    padding: 30px;
+  }
+
+  h1 {
+    display: inline-block;
+  }
+
+  .nyu-logo {
+    float: right;
+    /*
+    max-width: 130px;
+    */
+    margin: 15px;
+  }
+
+  /*.intro {
+    padding: 20px;
+  }
+  */
+
+  .headshot {
+    float: right;
+    width: 285px;
+  }
+
+  .work {
+    text-align: justify;
+  }
+
+  .intro {
+    margin-bottom: 50px;
+  }
+
+  .intro, .work {
+    padding: 40px 20px 20px 20px;
+  }
+
+  footer {
+    margin: 50px;
+  }
+}
